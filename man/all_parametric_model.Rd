@@ -4,8 +4,12 @@
 \alias{all_parametric_model}
 \title{Multiple parametric models for estimating species richness with various cutoff values}
 \usage{
-all_parametric_model(input_data, parallel = F, tau_range = NULL,
-  control = list(ncores = ceiling(detectCores()/2)))
+all_parametric_model(
+  input_data,
+  parallel = F,
+  tau_range = NULL,
+  control = list(ncores = ceiling(detectCores()/2))
+)
 }
 \arguments{
 \item{input_data}{An input type that can be processed by convert()}
